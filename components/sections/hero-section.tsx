@@ -32,11 +32,11 @@ export function HeroSection() {
               <span className="text-primary animate-glow">Daniel Uribe</span>
             </h1>
             <p className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-6 text-pretty">
-              Full-Stack Developer Junior
+              <span className="text-primary font-semibold">Full-Stack Developer</span> • Frontend + Backend
             </p>
             <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">
-              Especializado en crear soluciones web modernas con React, JavaScript, Java y Spring Boot. Transformo ideas
-              en experiencias digitales funcionales y atractivas.
+              Especializado en crear <span className="text-foreground font-medium">experiencias web personalizadas</span> con React, TypeScript, Java y Spring Boot. 
+              Transformo ideas en productos digitales que se adaptan a cada usuario y contexto de negocio.
             </p>
           </div>
 

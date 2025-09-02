@@ -5,26 +5,29 @@ import { ExternalLink, Github } from "lucide-react"
 
 const projects = [
   {
-    title: "E-Commerce Full-Stack",
+    title: "E-Commerce con Personalización Inteligente",
     description:
-      "Plataforma de comercio electrónico completa con carrito de compras, sistema de pagos y panel de administración.",
+      "Plataforma de comercio electrónico con carrito adaptativo, recomendaciones personalizadas y panel de administración modular por roles de usuario.",
+    highlights: ["Carrito que se adapta al comportamiento", "Panel admin personalizable", "Sistema de pagos integrado"],
     tech: ["React", "Spring Boot", "MySQL", "TailwindCSS"],
     status: "En desarrollo",
     github: "#",
     demo: "#",
   },
   {
-    title: "Task Manager API",
-    description: "API REST para gestión de tareas con autenticación JWT, CRUD completo y documentación con Swagger.",
+    title: "API REST Escalable con Arquitectura Modular",
+    description: "Sistema de gestión de tareas con autenticación JWT avanzada, rate limiting personalizado y documentación interactiva.",
+    highlights: ["JWT con refresh tokens", "Rate limiting por usuario", "Documentación Swagger interactiva"],
     tech: ["Java", "Spring Boot", "JWT", "MySQL"],
     status: "Completado",
     github: "#",
     demo: "#",
   },
   {
-    title: "Portfolio Personal",
+    title: "Portfolio con Experiencia Inmersiva",
     description:
-      "Sitio web personal desarrollado con Astro y migrado a Next.js, con efectos visuales avanzados y formulario de contacto.",
+      "Sitio web personal con efectos visuales avanzados, tema adaptativo y formulario de contacto inteligente que se adapta al contexto del visitante.",
+    highlights: ["Efectos visuales con Framer Motion", "Tema adaptativo automático", "Formulario contextual"],
     tech: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"],
     status: "Completado",
     github: "#",
@@ -66,6 +69,19 @@ export function ProjectsSection() {
 
                 <CardContent className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">{project.description}</p>
+
+                  {/* Technical Highlights */}
+                  <div className="space-y-2">
+                    <h4 className="text-sm font-medium text-foreground">Características técnicas:</h4>
+                    <ul className="space-y-1">
+                      {project.highlights.map((highlight, idx) => (
+                        <li key={idx} className="text-sm text-muted-foreground flex items-start">
+                          <span className="text-primary mr-2">•</span>
+                          {highlight}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
 
                   <div className="flex flex-wrap gap-2">
                     {project.tech.map((tech) => (

@@ -7,9 +7,9 @@ export function AboutSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-primary">Sobre Mí</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-primary">Mi Enfoque de Desarrollo</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto text-pretty">
-              Desarrollador apasionado por crear soluciones innovadoras
+              Creo experiencias digitales que se adaptan a cada usuario y contexto de negocio
             </p>
           </div>
 
@@ -35,41 +35,59 @@ export function AboutSection() {
             <div className="space-y-6">
               <div className="prose prose-lg dark:prose-invert max-w-none">
                 <p className="text-lg leading-relaxed">
-                  ¡Hola! ✌🏼 Soy <strong className="text-primary">Daniel Uribe</strong>, un Desarrollador Full Stack
-                  Junior formado en la Fundación Forge. Desde que conocí la programación, supe que quería dedicarme a
-                  realizar soluciones que no solo funcionen, sino que supongan, además, un verdadero valor para los
-                  usuarios finales.
+                  ¡Hola! ✌🏼 Soy <strong className="text-primary">Daniel Uribe</strong>, Full-Stack Developer especializado en 
+                  <strong className="text-primary"> experiencias personalizadas</strong>. Mi enfoque va más allá del código: 
+                  creo soluciones que se adaptan al comportamiento, contexto y necesidades específicas de cada usuario.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Soy una persona que le gusta aprender, estar en constante movimiento y experimentar con nuevas
-                  tecnologías. Me gusta enfrentarme a retos que exigen análisis, lógica y creatividad; siempre estoy
-                  buscando mejorar el resultado de lo que desarrolle.
+                  Mi metodología combina <strong className="text-primary">análisis de usuario</strong>, 
+                  <strong className="text-primary"> arquitectura técnica sólida</strong> y 
+                  <strong className="text-primary"> medición de impacto</strong>. Cada proyecto es una oportunidad 
+                  para crear algo que no solo funcione, sino que genere valor real y medible.
                 </p>
 
                 <p className="text-lg leading-relaxed">
-                  Me enfoco en el <strong className="text-primary">frontend</strong> para poder ofrecer experiencias
-                  limpias e intuitivas, y en el <strong className="text-primary">backend</strong> para poder desarrollar
-                  código eficiente, seguro y claro.
+                  En el <strong className="text-primary">frontend</strong> diseño interfaces que se adaptan dinámicamente, 
+                  y en el <strong className="text-primary">backend</strong> construyo APIs escalables con lógica de 
+                  personalización integrada. El resultado: productos que evolucionan con sus usuarios.
                 </p>
               </div>
 
               {/* Key Points */}
               <div className="grid sm:grid-cols-2 gap-4 mt-8">
-                <Card className="border-primary/20">
+                <Card className="border-primary/20 hover:border-primary/40 transition-colors">
                   <CardContent className="p-4">
-                    <h3 className="font-semibold text-primary mb-2">🎯 Enfoque</h3>
+                    <h3 className="font-semibold text-primary mb-2">🎯 Metodología</h3>
                     <p className="text-sm text-muted-foreground">
-                      Experiencias de usuario excepcionales con código limpio y eficiente
+                      Análisis → Desarrollo → Medición. Cada decisión técnica respaldada por datos de usuario
                     </p>
                   </CardContent>
                 </Card>
 
-                <Card className="border-primary/20">
+                <Card className="border-primary/20 hover:border-primary/40 transition-colors">
                   <CardContent className="p-4">
-                    <h3 className="font-semibold text-primary mb-2">🚀 Pasión</h3>
+                    <h3 className="font-semibold text-primary mb-2">🚀 Diferenciación</h3>
                     <p className="text-sm text-muted-foreground">
-                      Aprendizaje continuo y experimentación con nuevas tecnologías
+                      Especialización en personalización: interfaces adaptativas y APIs inteligentes
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-primary/20 hover:border-primary/40 transition-colors">
+                  <CardContent className="p-4">
+                    <h3 className="font-semibold text-primary mb-2">⚡ Stack Técnico</h3>
+                    <p className="text-sm text-muted-foreground">
+                      React + TypeScript + Spring Boot. Arquitectura moderna y escalable
+                    </p>
+                  </CardContent>
+                </Card>
+
+                <Card className="border-primary/20 hover:border-primary/40 transition-colors">
+                  <CardContent className="p-4">
+                    <h3 className="font-semibold text-primary mb-2">📊 Impacto</h3>
+                    <p className="text-sm text-muted-foreground">
+                      Productos que mejoran métricas: conversión, retención y satisfacción del usuario
                     </p>
                   </CardContent>
                 </Card>

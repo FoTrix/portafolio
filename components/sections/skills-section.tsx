@@ -4,19 +4,22 @@ import Image from "next/image"
 
 const skillCategories = [
   {
-    title: "Frontend",
-    skills: ["React", "JavaScript", "TypeScript", "HTML", "CSS", "TailwindCSS", "Astro", "Material UI", "Bootstrap"],
+    title: "Frontend Avanzado",
+    skills: ["React", "TypeScript", "JavaScript", "TailwindCSS", "Framer Motion", "Next.js", "HTML5", "CSS3"],
     icon: "🎨",
+    description: "Interfaces modernas y experiencias interactivas",
   },
   {
-    title: "Backend",
-    skills: ["Java", "Spring Boot", "Node.js", "MySQL", "API REST"],
+    title: "Backend Robusto",
+    skills: ["Java", "Spring Boot", "API REST", "MySQL", "JWT", "Node.js"],
     icon: "⚙️",
+    description: "Arquitecturas escalables y APIs seguras",
   },
   {
-    title: "Herramientas",
-    skills: ["Git", "GitHub", "VS Code", "Postman", "Bun", "Notion", "macOS"],
+    title: "DevOps & Tools",
+    skills: ["Git", "GitHub", "VS Code", "Postman", "Swagger", "Bun", "macOS"],
     icon: "🛠️",
+    description: "Flujo de desarrollo optimizado y documentación",
   },
 ]
 
@@ -42,6 +45,7 @@ export function SkillsSection() {
                   <div className="text-center mb-6">
                     <div className="text-4xl mb-3">{category.icon}</div>
                     <h3 className="text-xl font-semibold text-primary">{category.title}</h3>
+                    <p className="text-sm text-muted-foreground mt-2">{category.description}</p>
                   </div>
 
                   <div className="flex flex-wrap gap-2 justify-center">
