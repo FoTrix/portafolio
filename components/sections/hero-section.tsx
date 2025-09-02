@@ -26,7 +26,7 @@ export function HeroSection() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Main Heading */}
-          <div className="mb-8">
+          <div className="mb-8 pt-25 md:pt-10 sm:pt-8">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-4 text-balance">
               <span className="text-foreground">Hola, soy </span>
               <span className="text-primary animate-glow">Daniel Uribe</span>
