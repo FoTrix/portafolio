@@ -74,6 +74,79 @@
   --sidebar-ring: oklch(0.439 0 0);
 }
 
+/* Color Themes */
+[data-color-theme="blue"] {
+  --primary: oklch(0.623 0.214 259.815);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --ring: oklch(0.623 0.214 259.815);
+}
+
+[data-color-theme="green"] {
+  --primary: oklch(0.723 0.219 149.579);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --ring: oklch(0.723 0.219 149.579);
+}
+
+[data-color-theme="red"] {
+  --primary: oklch(0.704 0.191 22.216);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --ring: oklch(0.704 0.191 22.216);
+}
+
+[data-color-theme="purple"] {
+  --primary: oklch(0.627 0.265 303.9);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --ring: oklch(0.627 0.265 303.9);
+}
+
+[data-color-theme="orange"] {
+  --primary: oklch(0.705 0.213 47.604);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --ring: oklch(0.705 0.213 47.604);
+}
+
+[data-color-theme="pink"] {
+  --primary: oklch(0.718 0.192 355.935);
+  --primary-foreground: oklch(0.97 0.014 254.604);
+  --ring: oklch(0.718 0.192 355.935);
+}
+
+.dark [data-color-theme="blue"] {
+  --primary: oklch(0.488 0.243 264.376);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.488 0.243 264.376);
+}
+
+.dark [data-color-theme="green"] {
+  --primary: oklch(0.723 0.219 149.579);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.723 0.219 149.579);
+}
+
+.dark [data-color-theme="red"] {
+  --primary: oklch(0.704 0.191 22.216);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.704 0.191 22.216);
+}
+
+.dark [data-color-theme="purple"] {
+  --primary: oklch(0.627 0.265 303.9);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.627 0.265 303.9);
+}
+
+.dark [data-color-theme="orange"] {
+  --primary: oklch(0.705 0.213 47.604);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.705 0.213 47.604);
+}
+
+.dark [data-color-theme="pink"] {
+  --primary: oklch(0.718 0.192 355.935);
+  --primary-foreground: oklch(0.985 0 0);
+  --ring: oklch(0.718 0.192 355.935);
+}
+
 @theme inline {
   --font-sans: var(--font-dm-sans);
   --color-background: var(--background);

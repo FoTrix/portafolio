@@ -41,16 +41,16 @@ export function ContactSection() {
       if (response.ok) {
         toast({
           title: "Mensaje enviado",
-          description: "Gracias por contactarme. Te responderé pronto.",
+          description: "Mensaje enviado, le respondo en breve",
         })
         ;(e.target as HTMLFormElement).reset()
       } else {
         throw new Error(result.message)
       }
-    } catch (error) {
+    } catch {
       toast({
         title: "Error",
-        description: "Hubo un problema al enviar el mensaje. Inténtalo de nuevo.",
+        description: "Perdone este metodo no esta funcionando, por favor utilice la otra opción",
         variant: "destructive",
       })
     } finally {

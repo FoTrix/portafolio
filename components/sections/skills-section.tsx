@@ -36,7 +36,7 @@ export function SkillsSection() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {skillCategories.map((category, index) => (
+            {skillCategories.map((category) => (
               <Card
                 key={category.title}
                 className="border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-lg"

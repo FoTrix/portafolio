@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import { Moon, Sun, Menu, X } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useMounted } from "@/hooks/use-mounted"
+import { ThemeColorSelector } from "@/components/theme-color-selector"
 
 const navItems = [
   { href: "#hero", label: "Inicio" },
@@ -18,7 +19,7 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("hero")
   const mounted = useMounted()
-  const { theme, setTheme, resolvedTheme } = useTheme()
+  const { setTheme, resolvedTheme } = useTheme()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -83,8 +84,9 @@ export function Navigation() {
             </div>
           </div>
 
-          {/* Theme Toggle & Mobile Menu */}
+          {/* Theme Toggle & Color Theme Selector & Mobile Menu */}
           <div className="flex items-center space-x-2">
+            <ThemeColorSelector />
             <Button
               variant="ghost"
               size="icon"
