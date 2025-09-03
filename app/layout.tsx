@@ -21,18 +21,22 @@ export const metadata: Metadata = {
   keywords: ["Full-Stack Developer", "React", "JavaScript", "Java", "Spring Boot", "Portfolio"],
   authors: [{ name: "Daniel Ignacio Uribe Pulgar" }],
   creator: "Daniel Ignacio Uribe Pulgar",
+  metadataBase: new URL("https://portafolio-danieluribe-fotrix.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "es_ES",
     title: "Daniel Uribe - Full-Stack Developer",
     description: "Portafolio profesional de Daniel Ignacio Uribe Pulgar",
+    url: "https://portafolio-danieluribe-fotrix.vercel.app/",
     siteName: "Daniel Uribe Portfolio",
   },
   robots: {
     index: true,
     follow: true,
   },
-    generator: 'v0.app'
 }
 
 export default function RootLayout({
