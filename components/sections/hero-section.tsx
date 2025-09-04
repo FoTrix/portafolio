@@ -7,8 +7,8 @@ import { AuroraBackground } from "@/components/effects/aurora-background"
 export function HeroSection() {
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-    link.href = "/archives/CV/Daniel-Ignacio-Uribe-Pulgar-CV.pdf"
-    link.download = "Daniel-Ignacio-Uribe-Pulgar-CV.pdf"
+    link.href = "/archives/CV/Daniel-Ignacio-Uribe-Pulgar-cv2025.pdf"
+    link.download = "Daniel-Ignacio-Uribe-Pulgar-cv2025.pdf"
     link.click()
   }
 
