@@ -19,7 +19,7 @@ const projects = [
     description: "Sistema de gestión de tareas con autenticación JWT avanzada, rate limiting personalizado y documentación interactiva.",
     highlights: ["JWT con refresh tokens", "Rate limiting por usuario", "Documentación Swagger interactiva"],
     tech: ["Java", "Spring Boot", "JWT", "MySQL"],
-    status: "Completado",
+    status: "Pendiente",
     github: "#",
     demo: "#",
   },
