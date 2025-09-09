@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Daniel Uribe - Full-Stack Developer",
     description: "Portafolio profesional de Daniel Ignacio Uribe Pulgar",
     url: "https://portafolio-danieluribe-fotrix.vercel.app/",
-    siteName: "Daniel Uribe Portfolio",
+    siteName: "Daniel Uribe Portafolio",
   },
   robots: {
     index: true,
