@@ -24,7 +24,7 @@ const projects = [
     demo: "#",
   },
   {
-    title: "Portfolio con Experiencia Inmersiva",
+    title: "Portafolio con Experiencia Inmersiva",
     description:
       "Sitio web personal con efectos visuales avanzados, tema adaptativo y formulario de contacto inteligente que se adapta al contexto del visitante.",
     highlights: ["Efectos visuales con Framer Motion", "Tema adaptativo automático", "Formulario contextual"],

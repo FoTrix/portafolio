@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Daniel Uribe - Full-Stack Developer",
   description:
     "Portafolio profesional de Daniel Ignacio Uribe Pulgar, Full-Stack Developer Junior especializado en React, JavaScript, Java y Spring Boot.",
-  keywords: ["Full-Stack Developer", "React", "JavaScript", "Java", "Spring Boot", "Portfolio"],
+  keywords: ["Full-Stack Developer", "React", "JavaScript", "Java", "Spring Boot", "Portafolio"],
   authors: [{ name: "Daniel Ignacio Uribe Pulgar" }],
   creator: "Daniel Ignacio Uribe Pulgar",
   metadataBase: new URL("https://portafolio-danieluribe-fotrix.vercel.app"),
@@ -55,7 +55,7 @@ export default function RootLayout({
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange={false}
-          storageKey="portfolio-theme"
+          storageKey="portafolio-theme"
         >
           <Suspense fallback={null}>
             {children}

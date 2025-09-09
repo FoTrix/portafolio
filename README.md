@@ -1,4 +1,4 @@
-# Portfolio v2 - Portafolio de Desarrollador Moderno
+# Portafolio v2 - Portafolio de Desarrollador Moderno
 
 Un sitio web de portafolio elegante y moderno construido con Next.js 14, TypeScript y Tailwind CSS. Este portafolio muestra mis habilidades, proyectos y trayectoria profesional con un enfoque en diseño limpio y experiencia de usuario fluida.
 
@@ -25,7 +25,7 @@ Un sitio web de portafolio elegante y moderno construido con Next.js 14, TypeScr
 ## 📁 Estructura del Proyecto
 
 ```
-portfolio-v2/
+portafolio-v2/
 ├── app/                    # Directorio app de Next.js
 │   ├── api/               # Rutas API
 │   ├── globals.css        # Estilos globales
@@ -61,7 +61,7 @@ portfolio-v2/
 1. Clona el repositorio:
 ```bash
 git clone <url-del-repositorio>
-cd portfolio-v2
+cd portafolio-v2
 ```
 
 2. Instala las dependencias:
