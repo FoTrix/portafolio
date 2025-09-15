@@ -5,11 +5,13 @@ import { Download, Github, Linkedin, Mail } from "lucide-react"
 import { AuroraBackground } from "@/components/effects/aurora-background"
 
 export function HeroSection() {
+
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-    link.href = "/archives/CV/Daniel-Ignacio-Uribe-Pulgar-cv2025.pdf"
+    link.href = "/archives/Currículum Daniel Uribe.pdf"
     link.download = "Daniel-Ignacio-Uribe-Pulgar-cv2025.pdf"
     link.click()
+    // not need return
   }
 
   const scrollToProjects = () => {
