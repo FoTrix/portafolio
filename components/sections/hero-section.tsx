@@ -8,8 +8,8 @@ export function HeroSection() {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a")
-    link.href = "/archives/Currículum Daniel Uribe.pdf"
-    link.download = "Daniel-Ignacio-Uribe-Pulgar-cv2025.pdf"
+    link.href = "/archives/Currículum-daniel-uribe.pdf"
+    link.download = "Daniel-Ignacio-Uribe-Pulgar-cv-2025.pdf"
     link.click()
     // not need return
   }
